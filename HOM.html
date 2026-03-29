@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/HOM.css">
+    <title>House Of Mud</title>
+</head>
+<body>
+    <div class="offscreen">
+        <ul class="ul">
+            <li class="li">Home</li>
+            <li class="li">Products</li>
+            <li class="li">About</li>
+        </ul>
+    </div>
+    <nav class="nav">
+        <div class="logo"> House Of Mud</div>
+        <div class="menu">
+            <span></span>
+            <span></span>
+        </div>     
+    </nav>
+    <section class="Motto" >
+        <h1>Just One More Spray.</h1>
+        </section>
+    <section class="websitebody">
+        
+     <div class="Perfumedivs"> 
+        
+     </div> 
+     <div class="Perfumedivs">
+        
+     </div>
+     <div class="Perfumedivs">
+        
+     </div>  
+    </section>
+    <script>
+       const menu = document.querySelector(
+        '.menu'
+       );
+
+       const offscreen = document.querySelector('.offscreen');
+
+       menu.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        offscreen.classList.toggle('active');
+       })
+
+    </script>
+
+</body>
+</html>
