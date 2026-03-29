@@ -1,0 +1,112 @@
+.offscreen{
+           background-color: rgb(130, 130, 127); 
+           height: 100vh;
+           width: 100%;
+           max-width: 200px;
+           position: fixed;
+           top: 0;
+           right: -200px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           font-size: 2rem;
+           transition: all .3s ease;
+        }
+        .offscreen.active{
+            right: 0;
+        }
+        .offscreen.active span:nth-child(1){
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        .offscreen.active span:nth-child(2){
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Josefin+Sans',sans-serif;
+}
+        .nav{
+  background-color: rgb(17, 5, 0);  
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  position: sticky;
+  top: 0;
+        }
+        .logo{
+            color: rgb(249, 248, 248);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+        }
+        .menu{
+            height: 50px;
+            width: 50px;
+            margin-left: auto;
+            position: relative;
+        padding-right: 20px;
+        }
+        .menu span{
+            height: 1px;
+            width: 20px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 25px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform .2s ease;
+        }
+        .ul {
+            list-style: none;
+            display: grid;
+            height: 50vh;
+            
+        }
+        .li{
+            font-size: 15px;
+        
+        }
+        .li:hover{
+            color: rgb(252, 252, 252);
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .menu span:nth-child(1){
+        top: 45%;
+        }
+        .menu span:nth-child(2){
+            top: 55%;
+        }
+        
+.websitebody{
+ background-color: white;
+ display: flex;
+ justify-content: space-evenly;
+}
+.Perfumedivs{          
+padding: 10px 10px 10px 10px;
+width: 300px;
+height: 230px;
+background-color: rgb(225, 224, 223);
+text-align: center;
+margin-top: 80px;
+border-radius: 30px;
+box-shadow: 2px 3px 8px 1px rgb(186, 185, 185);
+}  
+.Motto h1{
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}      
